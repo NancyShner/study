@@ -17,7 +17,6 @@ const addDigits = (num) => {
 
   while (result > 9) { // Пока результат > 9 
     result = sumDigits(result) // Выполняется фунция sumDigits
-    console.log('while')
   }
   return result // Возвращается результат
 };
